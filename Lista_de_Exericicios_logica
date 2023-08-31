@@ -15,6 +15,7 @@ C (4+2)*2-4 e C 4+2*2-4
 4) Escreva um algoritmo para ler as dimensões de um retângulo (base e altura), calcular e escrever a 
 área do retângulo.
 
+
 5)Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade 
 dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e mês com 30 dias.
 
