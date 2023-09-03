@@ -10,7 +10,7 @@ lista_de_teclas = ["A", "B", "C", "D", "E","F","G","H","I","J","K","L","M","N","
 # 3. pegar a tecla que esse usuário digitou
 
 # 3.1 coloquei uma variavel pra testar a lista
-letra = "H"
+letra = input("letra que esta procurando ?")
 
 # 4. verificar na lista se ela existe
 if letra in lista_de_teclas:
