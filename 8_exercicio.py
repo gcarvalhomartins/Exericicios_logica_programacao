@@ -21,7 +21,28 @@ imposto = 45.00
 # custo de fabrica
 value_car_fabric = 10000
 
-#calculo
-value_total_consumer = value_car_fabric * distribuidor * imposto
-print(f"o valor total do carro é:{value_total_consumer}")
+#converter porcentagens para decimais
+distribuidor_decimal = distribuidor /100
+imposto_decimal = imposto / 100
 
+#calculo
+custo_final_consumer = value_car_fabric + (value_car_fabric * distribuidor_decimal) + (value_car_fabric * imposto_decimal)
+print(f"o valor total do carro é:{custo_final_consumer}")
+
+# versão do gpt 
+"""# Valores fixos de distribuidor e impostos (em porcentagem)
+distribuidor_percent = 28.00
+imposto_percent = 45.00
+
+# Custo de fábrica
+valor_carro_fabrica = 10000
+
+# Converter porcentagens para decimais
+distribuidor_decimal = distribuidor_percent / 100
+imposto_decimal = imposto_percent / 100
+
+# Calcular o custo final ao consumidor
+custo_final_consumidor = valor_carro_fabrica + (valor_carro_fabrica * distribuidor_decimal) + (valor_carro_fabrica * imposto_decimal)
+
+print(f"O valor total do carro é: {custo_final_consumidor}")
+"""
