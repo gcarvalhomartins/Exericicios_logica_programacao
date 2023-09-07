@@ -1,7 +1,6 @@
-#Gabriel Carvalho Martins
-#Exercícios de Lógica de Programação – Algoritmos Lista:01
+# Gabriel Carvalho Martins
+# Exercícios de Lógica de Programação – Algoritmos Lista:01
 
-#Exercícios de Lógica de Programação
 
 1)Escreva um algoritmo que armazene o valor 10 em uma variável A e o valor 20 em uma variável B. 
 A seguir (utilizando apenas atribuições entre variáveis) troque os seus conteúdos fazendo com que o 
@@ -57,7 +56,7 @@ n1 * 2 + n2 * 3 + n3 * 5
 mediafinal = -----------------------------------
 10
 
-Exercícios ( Estrutura de Seleção )
+# Exercícios ( Estrutura de Seleção )
 
 12) Ler um valor e escrever a mensagem É MAIOR QUE 10! se o valor lido for maior que 10, caso 
 contrário escrever NÃO É MAIOR QUE 10!
